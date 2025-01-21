@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+* {
+    font-family: "Quicksand", serif;
+}
+
+
+/* header style starts */
+
+.nav-style {
+    margin: 24px 141px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.logo-school {
+    display: flex;
+    align-items: center;
+}
+
+.school-style {
+    color: rgb(17, 17, 17);
+    font-size: 32px;
+    font-weight: 700;
+    margin: 0px;
+    margin-left: 11px;
+
+}
+
+.lists {
+    display: flex;
+}
+
+#home {
+    color: rgb(254, 163, 1);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#about {
+    color: rgb(1, 172, 253);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#facilities {
+    color: rgb(5, 212, 223);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#admission {
+    color: rgb(93, 88, 239);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.nav-btn {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 12px;
+    background: rgb(254, 163, 1);
+    padding: 10px;
+    border: none;
+    width: 197px;
+    height: 50px;
+}
+
+.bar-icons {
+    display: none;
+}
+
+.hr-line {
+    display: none;
+    border: 0.5px solid #FEA301;
+}
+
+
+/* banner style starts */
+
+.banner-title {
+    font-size: 56px;
+    font-weight: 700;
+    margin: 0px;
+    margin-bottom: 24px;
+    width: 640px;
+}
+
+#empowering {
+    color: #FEA301;
+}
+
+#vision {
+    color: #01ACFD;
+}
+
+.banner-container {
+    margin: 30px 140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-description {
+    color: rgb(17, 17, 17);
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0px;
+    margin-bottom: 24px;
+    width: 640px;
+}
+
+.enroll-btn {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 12px;
+    background: rgb(17, 17, 17);
+    padding: 10px;
+    border: none;
+    width: 197px;
+}
+
+
+
+
+
+/* for small devices */
+
+@media screen and (max-width:576px) {
+
+    /* header style */
+
+    .nav-style {
+        margin: 10px 16px;
+    }
+
+    .list-container {
+        display: none;
+    }
+
+    .school-style {
+        display: none;
+    }
+
+    .nav-btn {
+        display: none;
+    }
+
+    .bar-icons {
+        display: block;
+    }
+
+    .hr-line {
+        display: block;
+        border: 0.5px solid #FEA301;
+    }
+
+    /* banner section */
+    .banner-container {
+        flex-direction: column-reverse;
+        margin: 17px;
+        text-align: center;
+    }
+
+    .banner-title{
+        font-size: 32px;
+        width: auto;
+        margin-bottom: 12px;
+    }
+
+    .banner-description {
+        font-size: 18px;
+        width: auto;
+        margin-bottom: 16px;
+    }
+
+    .img-div img{
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* .enroll-btn {
+        font-size: 14px;
+        width: 130px;
+        padding: 6px;
+    } */
+}
