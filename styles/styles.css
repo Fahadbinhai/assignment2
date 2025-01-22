@@ -455,10 +455,92 @@
     margin: 80px 670px;
     padding: 10px;
     border: none;
-    
+
 }
 
 /* footer style starts */
+
+.footer {
+    background: rgb(1, 172, 253);
+    padding: 150px;
+
+}
+
+.footer-flex {
+    display: flex;
+    align-items: center;
+    gap: 350px;
+    /* justify-content: space-between; */
+}
+
+.log-text {
+    display: flex;
+}
+
+.kid-education {
+    color: rgb(255, 255, 255);
+    font-size: 42.14px;
+    font-weight: 700;
+    margin: 0px;
+    margin-left: 15px;
+}
+
+.footer-para {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 400;
+    width: 399.02px;
+}
+
+.about-school {
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    font-weight: 700;
+    width: 156.36px;
+    margin: 0px;
+    margin-bottom: 32px;
+}
+
+.about-school2 {
+    color: rgb(255, 255, 255);
+    font-size: 26px;
+    font-weight: 700;
+    margin: 0px;
+    /* margin-bottom: 10px; */
+    
+}
+
+.last{
+    display: flex;
+    flex-direction: column;
+    gap: 120px;
+}
+
+.footer-li {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.footer li ul {
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.home {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 500;
+    /* margin-bottom: 20px; */
+}
+
+.footer-picture{
+    display: flex;
+    gap: 20px;
+
+}
 
 /* for small devices */
 
@@ -547,36 +629,36 @@
 
     .stories-section {
         margin: 20px;
-        /* Reduce the margin for smaller screens */
+
     }
 
     .stories-title {
         font-size: 24px;
-        /* Reduce the title font size */
+
     }
 
     .all-card-container {
         flex-wrap: wrap;
-        /* Ensure cards wrap */
+
         justify-content: center;
-        /* Center the cards */
+
         padding: 20px;
-        /* Reduce padding */
+
     }
 
     .story-card-1 {
         display: none;
-        /* Hide story-card-1 on mobile */
+
     }
 
     .card-2-3,
     .card-4-5 {
         flex-wrap: wrap;
-        /* Allow wrapping */
+
         justify-content: center;
-        /* Center align the cards */
+
         gap: 16px;
-        /* Reduce the gap between cards */
+
     }
 
     .story-card-2,
@@ -584,9 +666,9 @@
     .story-card-4,
     .story-card-5 {
         width: calc(50% - 16px);
-        /* Each card takes half of the screen width with gap */
+
         margin-bottom: 16px;
-        /* Add space below each card */
+
     }
 
     .date-style2,
@@ -594,13 +676,41 @@
     .date-style4,
     .date-style5 {
         width: auto;
-        /* ডাইনামিক প্রস্থ */
+
         margin: 0 auto;
         transform: translateY(-25px);
-        /* Y-অক্ষের স্থানান্তর মুছে ফেলা */
+
         padding: 8px 15px;
-        /* একটু ছোট করে প্যাডিং */
+
         font-size: 14px;
-        /* ফন্ট সাইজ ছোট */
+
     }
+
+    /* footer section style */
+
+    .footer{
+        padding: 50px;
+    }
+    .footer-flex{
+        flex-direction: column;
+        gap: 20px;
+        align-items: flex-start;
+    }
+
+     .log-text,
+    .last {
+        width: 100%; 
+        text-align: left; 
+    }
+
+    .footer-para,
+    .about-school,
+    .home {
+        font-size: 18px;
+    }
+
+    .footer-picture {
+        gap: 10px; 
+    }
+    
 }
