@@ -252,7 +252,7 @@
     display: flex;
     gap: 30px;
     /* background-color: whitesmoke ; */
-    padding: 40px;
+    padding: 40px 240px;
 }
 
 .card-2-3 {
@@ -315,6 +315,7 @@
     /* margin-top: -20px; */
     transform: translateY(-38px);
 }
+
 .date-style2 {
     color: rgb(255, 255, 255);
     font-size: 15.34px;
@@ -328,6 +329,7 @@
     /* margin-top: -20px; */
     transform: translateY(-38px);
 }
+
 .date-style3 {
     color: rgb(255, 255, 255);
     font-size: 15.34px;
@@ -341,6 +343,7 @@
     /* margin-top: -20px; */
     transform: translateY(-38px);
 }
+
 .date-style4 {
     color: rgb(255, 255, 255);
     font-size: 15.34px;
@@ -354,6 +357,7 @@
     /* margin-top: -20px; */
     transform: translateY(-38px);
 }
+
 .date-style5 {
     color: rgb(255, 255, 255);
     font-size: 15.34px;
@@ -387,8 +391,6 @@
     position: relative;
     z-index: 2;
     overflow: hidden;
-
-
 }
 
 .story-card-3 {
@@ -441,9 +443,22 @@
     position: relative;
     z-index: 2;
     overflow: hidden;
-
-
 }
+
+.viewall-btn {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 12px;
+    background: rgb(17, 17, 17);
+    width: 197px;
+    margin: 80px 670px;
+    padding: 10px;
+    border: none;
+    
+}
+
+/* footer style starts */
 
 /* for small devices */
 
@@ -531,42 +546,61 @@
     /* our stories section */
 
     .stories-section {
-        margin: 20px; /* Reduce the margin for smaller screens */
+        margin: 20px;
+        /* Reduce the margin for smaller screens */
     }
 
     .stories-title {
-        font-size: 24px; /* Reduce the title font size */
+        font-size: 24px;
+        /* Reduce the title font size */
     }
 
     .all-card-container {
-        flex-wrap: wrap; /* Ensure cards wrap */
-        justify-content: center; /* Center the cards */
-        padding: 20px; /* Reduce padding */
+        flex-wrap: wrap;
+        /* Ensure cards wrap */
+        justify-content: center;
+        /* Center the cards */
+        padding: 20px;
+        /* Reduce padding */
     }
 
     .story-card-1 {
-        display: none; /* Hide story-card-1 on mobile */
+        display: none;
+        /* Hide story-card-1 on mobile */
     }
 
-    .card-2-3, .card-4-5 {
-        flex-wrap: wrap; /* Allow wrapping */
-        justify-content: center; /* Center align the cards */
-        gap: 16px; /* Reduce the gap between cards */
+    .card-2-3,
+    .card-4-5 {
+        flex-wrap: wrap;
+        /* Allow wrapping */
+        justify-content: center;
+        /* Center align the cards */
+        gap: 16px;
+        /* Reduce the gap between cards */
     }
 
-    .story-card-2, .story-card-3, .story-card-4, .story-card-5 {
-        width: calc(50% - 16px); /* Each card takes half of the screen width with gap */
-        margin-bottom: 16px; /* Add space below each card */
+    .story-card-2,
+    .story-card-3,
+    .story-card-4,
+    .story-card-5 {
+        width: calc(50% - 16px);
+        /* Each card takes half of the screen width with gap */
+        margin-bottom: 16px;
+        /* Add space below each card */
     }
 
     .date-style2,
     .date-style3,
     .date-style4,
     .date-style5 {
-        width: auto; /* ডাইনামিক প্রস্থ */
-        margin: 0 auto; 
-        transform: translateY(-25px); /* Y-অক্ষের স্থানান্তর মুছে ফেলা */
-        padding: 8px 15px; /* একটু ছোট করে প্যাডিং */
-        font-size: 14px; /* ফন্ট সাইজ ছোট */
+        width: auto;
+        /* ডাইনামিক প্রস্থ */
+        margin: 0 auto;
+        transform: translateY(-25px);
+        /* Y-অক্ষের স্থানান্তর মুছে ফেলা */
+        padding: 8px 15px;
+        /* একটু ছোট করে প্যাডিং */
+        font-size: 14px;
+        /* ফন্ট সাইজ ছোট */
     }
 }
