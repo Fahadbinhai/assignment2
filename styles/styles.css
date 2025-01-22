@@ -233,6 +233,27 @@
     align-items: center;
 }
 
+.marquee{
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    box-sizing: border-box;
+    animation: marquee 25s linear infinite;
+    /* background-color: #f0f0f0; */
+    color: blue;
+    font-size: 20px;
+    padding: 10px;
+}
+
+@keyframes marquee {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
 /* our story section starts */
 
 .stories-section {
