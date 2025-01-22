@@ -259,7 +259,7 @@
 .stories-section {
     background: url(../assets/bg.png), linear-gradient(0.00deg, rgba(254, 163, 1, 0.3), rgba(255, 255, 255, 0.3) 100%);
     ;
-    margin: 80px 140px 40px 140px;
+    margin: 80px 0px 0px 0px;
 }
 
 .stories-title {
@@ -273,7 +273,7 @@
     display: flex;
     gap: 30px;
     /* background-color: whitesmoke ; */
-    padding: 40px 240px;
+    padding: 40px 350px;
 }
 
 .card-2-3 {
@@ -429,8 +429,6 @@
     position: relative;
     z-index: 2;
     overflow: hidden;
-
-
 }
 
 .story-card-4 {
@@ -467,6 +465,10 @@
     overflow: hidden;
 }
 
+.viewall-btn-container{
+    text-align: center;
+}
+
 .viewall-btn {
     color: rgb(255, 255, 255);
     font-size: 20px;
@@ -484,6 +486,7 @@
 
 .footer {
     background: rgb(1, 172, 253);
+    margin: 0px;
     padding: 150px;
 
 }
@@ -683,10 +686,17 @@
     .story-card-2,
     .story-card-3,
     .story-card-4,
+    .story-card-5 img {
+        width: auto;
+    }
+
+    .story-card-2,
+    .story-card-3,
+    .story-card-4,
     .story-card-5 {
         width: calc(50% - 16px);
-
         margin-bottom: 16px;
+        
 
     }
 
